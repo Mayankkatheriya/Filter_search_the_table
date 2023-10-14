@@ -21,16 +21,17 @@ for(let i=0; i<data.length; i++){
     tbody.appendChild(newRow);
 }
 let input = document.querySelector("input");
+let tableData = [...document.querySelectorAll(".details-container tr")]
 function filterTable(searchStr){
-    const filteredData = data.filter(({name})=> name.toLowerCase().includes(searchStr.toLowerCase()))
+    const filteredData = tableData.filter((ele)=> ele.firstElementChild.innerText.toLowerCase().includes(searchStr.toLowerCase()))
     while (tbody.firstChild) {
         tbody.removeChild(tbody.firstChild);
     }
-    for(let i=0; i<data.length; i++){
+    for(let i=0; i<filteredData.length; i++){
         let newRow = document.createElement("tr");
         newRow.innerHTML = `
-        <td>${filteredData[i].name}</td>
-        <td>${filteredData[i].country}</td>
+        <td>${filteredData[i].firstElementChild.innerText}</td>
+        <td>${filteredData[i].lastElementChild.innerText}</td>
         `
         tbody.appendChild(newRow);
     }
