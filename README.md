@@ -17,7 +17,7 @@
 * The page includes a heading with the creator's name and a heart emoji.
 * An input field for searching by name is provided.
 * A table is present with headers "Customer Name" and "Country."
-* The table body ("tbody") initially contains sample data that's commented out.
+* The table body ("tbody") initially contains sample data that are commented out.
 
 `CSS (styles.css)`:
 
