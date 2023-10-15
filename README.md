@@ -1,5 +1,5 @@
 # Filter_search_the_table
-## Hosted Link: [→ Click Me ←](https://mayankkatheriya.github.io/Filter_search_the_table/search_the_table/)
+## Hosted Link: [→ Click Me ←](https://mayankkatheriya.github.io/Filter_search_the_table/)
 
 # UI:
 ![image](https://github.com/Mayankkatheriya/Filter_search_the_table/assets/128832286/29ac3ba5-da54-4177-81b6-0f6b42ed654d)
